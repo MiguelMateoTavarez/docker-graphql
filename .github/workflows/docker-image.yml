@@ -31,4 +31,4 @@ jobs:
         
     - name: Push Docker Image
       run: |
-        docker push -t mimagodev/docker-graphql:0.0.2 .
+        docker push mimagodev/docker-graphql:0.0.2
